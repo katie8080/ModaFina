@@ -3,8 +3,14 @@
 
 @import "css/reset.css";
 
-.whiteTitle{
+/*.whiteTitle{
 	color: #f4f4f4 !important;
+}*/
+.blackText{
+	color: #1c1d22;
+}
+.headerLogo{
+	height: 78px;
 }
 
 /*----*****---- << Table of Contents >> ----*****----*/
@@ -65,8 +71,8 @@
 	h6{ font-size:14px; }
 
 	h2.border-title.aligncenter { text-align:center; margin-bottom:50px; position: relative; color: #1c1d22; font-weight: 100; }
-	h2.border-title.aligncenter:before { background: url(images/heading-bottom.png) no-repeat; content: ""; height: 35px; left: 0; margin: 0 auto; position: absolute; right: 0;
-    bottom: -40px; width: 206px; z-index: 9; }
+	h2.border-title.aligncenter:before { background: url(images/heading-bottom1.png) no-repeat; content: "";  height: 35px; left: 0; margin: 0 auto; position: absolute; right: 0;
+    bottom: -40px; width: 206px; z-index: 9; color: #1c1d22 !important; }
 
 	.blog-post h3.border-title, #secondary h3.border-title { font-size: 20px; }
 	h3.border-title { text-align: left; clear: both; font-weight: 100; }
@@ -446,18 +452,30 @@
 			font-weight: 100;
 			text-transform: uppercase;
 			margin-bottom: 0;
-			font-size: 40px;
+			font-size: 38px;
 			line-height: 44px;
 		}
 	.boldCapt
 	{
-		font-size: 39px;
+		font-size: 37px;
 	}
 	.banner h2 strong { font-size: 68px; }
 	.banner p
 	{
 		 font-size: 16px;
-		 width: 310px;
+		 width: 302px;
+	 }
+
+	 @media screen and (min-width:480px){
+		 .banner p{
+			 width: 412px;
+		 }
+		 .banner h2{
+			 font-size: 51px;
+		 }
+		 .boldCapt{
+			 font-size: 50px;
+		 }
 	 }
 	.banner.type3 .caption { display: block; }
 	.banner.type3 .caption h1 { color: #f4f4f4; margin: 0; padding: 50px 0; border: 1px dashed #f4f4f4; border-left: none; border-right: none; font-size: 40px; text-transform: uppercase; font-family: "Roboto",sans-serif; }
