@@ -6,6 +6,10 @@
 /*.whiteTitle{
 	color: #f4f4f4 !important;
 }*/
+.stickingLogo{
+	width: 50px !important;
+}
+
 .blackText{
 	color: #1c1d22;
 }

@@ -52,6 +52,8 @@
 
     <!-- jQuery -->
     <script src="js/modernizr.custom.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/ScrollToPlugin.min.js"></script>
 
 </head>
 
@@ -63,7 +65,7 @@
         <div class="inner three"></div>
     </div>
     <h3 class="loader-text">
-    	TrendSalon
+
     </h3>
 </div><!-- PreLoader -->
 <div class="wrapper"><!-- Wrapper -->
@@ -95,65 +97,17 @@
                             Menu
                             <span class="dt-menu-toggle-icon"></span>
                         </div>
-                        <a title="TrendSalon" href="index.html" class="sticky-logo"><img title="TrendSalon" alt="Trendy" src="images/logo.png"></a>
+                        <a title="TrendSalon" href="index.html" class="stickingLogo sticky-logo"><img title="TrendSalon" alt="Trendy" src="newImages/modaLogo.png"></a>
                         <ul class="menu">
-                            <li class="current_page_item menu-item-simple-parent"><a href="index.html">Home</a>
-                            	<ul class="sub-menu">
-                                    <li><a href="index-v2.html">Home 2</a></li>
-                                    <li><a href="index-v3.html">Home 3</a></li>
-                                    <li><a href="index-v4.html">Home 4</a></li>
-                                    <li><a href="index-v5.html">Home 5</a></li>
-                                </ul>
-                                <a class="dt-menu-expand">+</a>
-                            </li>
-                            <li class="menu-item-simple-parent"><a href="about-us.html">Pages</a>
-                            	<ul class="sub-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="shortcodes.html">Shortcodes</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                    <li><a href="header2.html">Header Types</a>
-                                    	<ul class="sub-menu">
-                                            <li><a href="header2.html">Header2</a></li>
-                                            <li><a href="header3.html">Header3</a></li>
-                                            <li><a href="header4.html">Header4</a></li>
-                                            <li><a href="header5.html">Header5</a></li>
-                                        </ul>
-                                		<a class="dt-menu-expand">+</a>
-                                    </li>
-                                </ul>
-                                <a class="dt-menu-expand">+</a>
-                            </li>
-                            <li class=""><a href="services.html">Service</a></li>
-                            <li class="menu-item-simple-parent"><a href="shop.html">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="shop-cart.html">Cart</a></li>
-                                    <li><a href="shop-checkout.html">CheckOut</a></li>
-                                </ul>
-                                <a class="dt-menu-expand">+</a>
-                            </li>
-                            <li class="menu-item-simple-parent"><a href="blog.html">Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                    <li><a href="blog-details-rhs.html">Blog Details With RHS</a></li>
-                                    <li><a href="blog-details-lhs.html">Blog Details With LHS</a></li>
-                                </ul>
-                                <a class="dt-menu-expand">+</a>
-                            </li>
-                            <li class="menu-item-simple-parent"><a href="portfolio.html">Gallery</a>
-                            	<ul class="sub-menu">
-                                    <li><a href="portfolio-details.html">Gallery Details</a></li>
-                                    <li><a href="portfolio-details-rhs.html">Gallery Details With RHS</a></li>
-                                    <li><a href="portfolio-details-lhs.html">Gallery Details With LHS</a></li>
-                                </ul>
-                                <a class="dt-menu-expand">+</a>
-                            </li>
-                            <li class="menu-item-simple-parent"><a href="contact.html">Contacts</a>
-                            	<ul class="sub-menu">
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="contact2.html">Contact 2</a></li>
-                                </ul>
-                                <a class="dt-menu-expand">+</a>
-                            </li>
+                            <li class="current_page_item menu-item-simple-parent"><a id="1" class="scrollNav" >About</a></li>
+                            <li class="menu-item-simple-parent"><a id="2" class="scrollNav">Offers</a></li>
+                            <li class=""><a id="3" class="scrollNav">Products</a></li>
+                            <li class="menu-item-simple-parent"><a id="4" class="scrollNav" >Stylists</a></li>
+                            <li class="menu-item-simple-parent"><a id="5" class="scrollNav" >Services</a>  </li>
+                            <li class="menu-item-simple-parent"><a id="6" class="scrollNav" >Testimonials</a></li>
+
+
+														<li class="menu-item-simple-parent"><a href="requestContact.html">Contact</a></li>
                         </ul>
                     </nav><!-- End of Nav -->
                 </div>
@@ -183,7 +137,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" clear"></div>
+            <div id="section1" class=" clear"></div>
             <div class="opening-time-info">
             	<div class="container">
                 	<ul class="time-info">
@@ -253,7 +207,7 @@
                     </div>
                 </div> -->
             </div><!-- End of Container -->
-            <div class="clear"></div>
+            <div id="section2" class="clear"></div>
             <div class="hr-invisible"></div>
             <div class="fullwidth-section dt-sc-parallax-section pricing-parallax dark-bg">
                 <div class="fullwidth-bg">
@@ -373,7 +327,7 @@
                     </div>
                 </div>
         	</div>
-            <div class="clear"></div>
+            <div id="section3" class="clear"></div>
             <div class="fullwidth-section promo-parallax" style="background-position: 35% 0%;">
             	<div class="parallax-spacing productSection">
                 	<div class="container">
@@ -473,7 +427,7 @@
                     </div>
                 </div>
             </div> -->
-            <div class="clear"></div>
+            <div id="section4" class="clear"></div>
             <div class="hr-invisible"></div>
             <div class="container">
             	<h2 class="border-title aligncenter whiteTitle"> Meet our Expert Stylists </h2>
@@ -639,7 +593,8 @@
                     </div>
                	</div>
           	</div> -->
-            <div class="clear"></div>
+						<div id="section5" class="clear"></div>
+              <div class="hr-invisible"></div>
             <div class="hr-invisible"></div>
             <!-- <h2 class="border-title aligncenter"> Our Pricing Plans </h2> -->
          	<!-- <div class="hr-invisible"></div> -->
@@ -654,11 +609,11 @@
                             <div class="dt-sc-pricing-carousel">
                                 <div class="column dt-sc-one-half">
                                     <ul class="menu-card check">
-																				<li>Ladies cut &amp; blow-dry<span>$36</span></li>
+																				<li>Ladies cut <br>&amp; blow-dry<span>$36</span></li>
 																				<li>Ladies cut<span>$26</span></li>
                                         <li>Colour &amp; blow-dry<span>$60</span></li>
                                         <li>Colour add ons<span>$35</span></li>
-                                        <li>Full foils + 31 &amp; blow-dry<span>$103</span></li>
+                                        <li>Full foils + 31<br> &amp; blow-dry<span>$103</span></li>
                                         <li>Partial foils 11-30 &amp; blow-dry<span>$72</span></li>
                                         <li>Foils 10 or less each<span>$7</span></li>
                                         <li>Men’s colour<span>$38</span></li>
@@ -674,23 +629,22 @@
                                         <li>Child’s Cut<span>$14</span></li>
                                         <li>Men's Cut<span>$21</span></li>
                                         <li>Special Occasion<span>$45</span></li>
-                                        <li>Flat iron/hot roller 15 min<span>$10</span></li>
+                                        <li>Flat iron/hot roller<br> 15 min<span>$10</span></li>
                                         <li>Blow-dry<span>$23</span></li>
                                         <li>Conditioning treatment<span>$20</span></li>
-                                        <li>Olaplex® with colour service <span>$15</span></li>
-                                        <li>Olaplex® treatment only blow-dry extra<span>$25</span></li>
+                                        <li>Olaplex® with<br> colour service <span>$15</span></li>
                                     </ul>
                                 </div>
                                 <div class="column dt-sc-one-half">
                                     <ul class="menu-card check">
-                                        <li>Full perm &amp; blow-dry 31+rods<span>$55</span></li>
+                                        <li>Full perm &amp; blow-<br>dry 31+rods<span>$55</span></li>
                                         <li>Brazilian blowout<span></span></li>
                                         <li>Eyebrow wax<span>$14</span></li>
                                         <li>Lip wax<span>$13</span></li>
                                         <li>Chin wax<span>$13</span></li>
                                         <li>Full facial wax<span>$34</span></li>
                                         <li>Classic facial<span>$62</span></li>
-                                        <li>Makeup application<span>$35</span></li>
+                                        <li>Makeup <br>application<span>$35</span></li>
                                         <li>Makeup lesson<span>$45</span></li>
                                         <li>Half hour massage<span>$38</span></li>
 																				<li>Nail repair<span>$5</span></li>
@@ -708,7 +662,7 @@
                                         <li>Classic pedicure<span>$37</span></li>
                                         <li>Lash fills<span>$35-$65</span></li>
                                         <li>Full set lashes<span>$130</span></li>
-																				<li>Artificial nail soak off<span>$27</span></li>
+																				<li>Artificial nail<br> soak off<span>$27</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -720,21 +674,21 @@
                     </div>
                 </div>
             </div>
-            <div class="clear"></div>
+            <div id="section6" class="clear"></div>
             <div class="hr-invisible"></div>
             <div class="container">
-            	<h2 class="border-title aligncenter whiteTitle"> Client Testimonials </h2>
+            	<h2  class="border-title aligncenter whiteTitle"> Client Testimonials </h2>
                 <div class="dt-sc-testimonial-carousel-wrapper">
                     <ul class="dt-sc-testimonial-carousel">
                         <li>
                         	<div class="dt-sc-testimonial">
                             	<div class="author">
-	                                <img alt="" src="images/testimonial-img1.jpg">
+	                                <img alt="" src="newImages/lizSchering.png">
                                 </div>
                                 <div class="hr-invisible-small"></div>
-                                <blockquote class="whiteTitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br> ullamco laboris nisi ut aliquip ex ea commodo consequat uis aute irure dolor </blockquote>
+                                <blockquote class="whiteTitle"> I needed a pick me up and as always Jen did an amazing job. Love love my hair<br> and I imagine I will be smiling for days with all the compliments I am getting! </blockquote>
                                 <div class="author-detail">
-                                	Jos Buttler <span>Duis aute irure</span>
+                                	Liz Schering <span> .</span>
                                 </div>
                             </div>
                         </li>
@@ -883,6 +837,9 @@
 <script src="js/jsplugins.js" type="text/javascript"></script>
 <script src="js/jquery.meanmenu.min.js" type="text/javascript"></script>
 <script src="js/custom.js"></script>
+<script src="js/main.js"></script>
+
+
 
 </body>
 </html>
