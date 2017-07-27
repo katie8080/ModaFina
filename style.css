@@ -6,6 +6,10 @@
 /*.whiteTitle{
 	color: #f4f4f4 !important;
 }*/
+.option{
+	color:#1c1d22;
+}
+
 .stickingLogo{
 	width: 50px !important;
 }
@@ -248,10 +252,17 @@ button {
 
 	textarea { height:160px; overflow:auto; resize: none; }
 	#respond textarea { height:180px; }
-	select{ background:#f4f4f4; border:1px solid #e5e5d8; padding:10px; margin:10px 0 10px; display:block; width:100%; }
+	select{
+		background:#f4f4f4;
+		border:1px solid #e5e5d8;
+		padding:10px;
+		margin:10px 0 10px;
+		display:block; width:100%;
+		color:#1c1d22;
+	}
 	select option { background:#353737; padding: 3px 10px; }
 
-	select { height:40px; color: #feecda; border:1px solid #494542; width:100%; margin:0px 0px 30px; padding:0 10px; -webkit-appearance:none; -moz-appearance:none; appearance:none; cursor:pointer; }
+	select { height:40px; color:#1c1d22; border:1px solid #494542; width:100%; margin:0px 0px 30px; padding:0 10px; -webkit-appearance:none; -moz-appearance:none; appearance:none; cursor:pointer; }
 
 	.selection-box { position:relative; clear:both; }
 	.selection-box:before, .selection-box:after { content:""; pointer-events: none; position:absolute; }
